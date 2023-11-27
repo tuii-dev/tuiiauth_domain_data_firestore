@@ -3,18 +3,35 @@ description: A new Flutter package project.
 version: 0.0.1
 homepage:
 
+publish_to: none # Remove this line if you wish to publish to pub.dev
+
 environment:
   sdk: '>=2.19.6 <3.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
+  cloud_firestore: ^4.4.3
+  dartz: ^0.10.1
+  email_validator: ^2.1.17
+  equatable: ^2.0.5
+  firebase_analytics: ^10.1.4
+  firebase_auth: ^4.10.1
   flutter:
     sdk: flutter
-
+  google_sign_in: ^5.3.0
+  i18n_extension: ^7.0.0
+  intl: ^0.18.1
+  tuiicore:
+    path: ../tuiicore/
+  tuii_entity_models:
+    path: ../tuii_entity_models/
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
+
+dependency_overrides:
+  intl: ^0.18.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
