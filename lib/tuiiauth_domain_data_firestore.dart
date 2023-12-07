@@ -17,6 +17,7 @@ export 'files/domain/usecases/is_email_unique.dart';
 export 'files/domain/usecases/login_apple.dart';
 export 'files/domain/usecases/login_email_password.dart';
 export 'files/domain/usecases/login_google.dart';
+export 'files/domain/usecases/logout.dart';
 export 'files/domain/usecases/manage_user_subjects.dart';
 export 'files/domain/usecases/refresh_firebase_user.dart';
 export 'files/domain/usecases/revoke_zoom_token.dart';
